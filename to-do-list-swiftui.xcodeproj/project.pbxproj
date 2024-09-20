@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B5A7AA42C9CF1D10053CF2F /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA32C9CF1D10053CF2F /* TaskModel.swift */; };
+		2B5A7AA62C9CF3E20053CF2F /* TasksMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA52C9CF3E20053CF2F /* TasksMock.swift */; };
+		2B5A7AAA2C9CF57B0053CF2F /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA92C9CF57B0053CF2F /* TaskCellView.swift */; };
 		2B7486002C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */; };
-		2B7486022C6D5CDE003EB774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7486012C6D5CDE003EB774 /* ContentView.swift */; };
+		2B7486022C6D5CDE003EB774 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7486012C6D5CDE003EB774 /* TaskViewController.swift */; };
 		2B7486042C6D5CE1003EB774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7486032C6D5CE1003EB774 /* Assets.xcassets */; };
 		2B7486072C6D5CE1003EB774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7486062C6D5CE1003EB774 /* Preview Assets.xcassets */; };
+		2BB9181A2C9BA23700508871 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB918192C9BA23700508871 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B5A7AA32C9CF1D10053CF2F /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		2B5A7AA52C9CF3E20053CF2F /* TasksMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksMock.swift; sourceTree = "<group>"; };
+		2B5A7AA92C9CF57B0053CF2F /* TaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
 		2B7485FC2C6D5CDE003EB774 /* to-do-list-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to-do-list-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_swiftuiApp.swift; sourceTree = "<group>"; };
-		2B7486012C6D5CDE003EB774 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B7486012C6D5CDE003EB774 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		2B7486032C6D5CE1003EB774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B7486062C6D5CE1003EB774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BB918192C9BA23700508871 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5A7AA22C9CF15D0053CF2F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7AA52C9CF3E20053CF2F /* TasksMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		2B7485F32C6D5CDE003EB774 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +67,14 @@
 		2B7485FE2C6D5CDE003EB774 /* to-do-list-swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				2B5A7AA22C9CF15D0053CF2F /* Mocks */,
+				2BB918182C9BA20300508871 /* ViewControllers */,
+				2BB918172C9BA1C100508871 /* Extensions */,
+				2BB918162C9BA1B100508871 /* Repository */,
+				2BB918152C9BA1A700508871 /* Views */,
+				2BB918142C9BA19B00508871 /* ViewModels */,
+				2BB918132C9B9DBD00508871 /* Models */,
 				2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */,
-				2B7486012C6D5CDE003EB774 /* ContentView.swift */,
 				2B7486032C6D5CE1003EB774 /* Assets.xcassets */,
 				2B7486052C6D5CE1003EB774 /* Preview Content */,
 			);
@@ -65,6 +87,52 @@
 				2B7486062C6D5CE1003EB774 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BB918132C9B9DBD00508871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7AA32C9CF1D10053CF2F /* TaskModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BB918142C9BA19B00508871 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2BB918192C9BA23700508871 /* TaskViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2BB918152C9BA1A700508871 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A7AA92C9CF57B0053CF2F /* TaskCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BB918162C9BA1B100508871 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2BB918172C9BA1C100508871 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2BB918182C9BA20300508871 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B7486012C6D5CDE003EB774 /* TaskViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B7486022C6D5CDE003EB774 /* ContentView.swift in Sources */,
+				2B5A7AA62C9CF3E20053CF2F /* TasksMock.swift in Sources */,
+				2B7486022C6D5CDE003EB774 /* TaskViewController.swift in Sources */,
+				2BB9181A2C9BA23700508871 /* TaskViewModel.swift in Sources */,
+				2B5A7AA42C9CF1D10053CF2F /* TaskModel.swift in Sources */,
 				2B7486002C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift in Sources */,
+				2B5A7AAA2C9CF57B0053CF2F /* TaskCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
