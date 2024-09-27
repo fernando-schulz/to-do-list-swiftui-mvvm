@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TaskViewController: View {
+    
+    @ObservedObject var viewModel: TaskViewModel
+    
     var body: some View {
         VStack {
             HStack {
@@ -23,39 +26,90 @@ struct ContentView: View {
                 
                 VStack {
                     Spacer()
-                    Text("Tasks")
+                    Text(viewModel.title)
                         .font(.title)
                         .fontWeight(.semibold)
-                        .foregroundColor(.white)
+                        .foregroundColor(Color("TextColor"))
                 }
             }
             .padding(.horizontal)
-            .frame(width: .infinity, height: 220)
+            .frame(maxWidth: .infinity, maxHeight: 220)
             
             Spacer()
             
             VStack() {
+                HStack {
+                    Spacer()
+                    
+                    Button(action: {
+                        viewModel.toggleShowModalAddTask()
+                    }) {
+                        Image(systemName: "plus")
+                            .foregroundColor(.white)
+                    }
+                    .sheet(isPresented: $viewModel.showModalAddTask) {
+                        AddTaskViewController(
+                            viewModel: {
+                                let addTaskViewModel = AddTaskViewModel(taskRepository: TaskRepository())
+                                addTaskViewModel.onTaskAdded = {
+                                    viewModel.loadTasks()
+                                }
+                                return addTaskViewModel
+                            }(),
+                            showModal: $viewModel.showModalAddTask
+                        )
+                    }
+                }
+                .padding(.horizontal, 21)
+                .padding(.vertical, 2)
                 
+                List {
+                    Section() {
+                        ForEach(viewModel.incompletedTasks) { task in
+                            TaskCellView(task: task, toggleCompletion: { updatedTask in
+                                withAnimation {
+                                    viewModel.toggleTaskCompletion(updatedTask)
+                                }
+                            })
+                        }
+                    }
+                    .listRowBackground(Color.clear)
+                    
+                    if !viewModel.completedTasks.isEmpty {
+                        Section(header: VStack {
+                            Text("Tarefas Completadas")
+                                .foregroundColor(Color("TextColor"))
+                            Divider()
+                                .background(Color("TextColor"))
+                        }
+                        ) {
+                            ForEach(viewModel.completedTasks) { task in
+                                TaskCellView(task: task, toggleCompletion: { updatedTask in
+                                    withAnimation {
+                                        viewModel.toggleTaskCompletion(updatedTask)
+                                    }
+                                })
+                            }
+                        }
+                        .listRowBackground(Color.clear)
+                    }
+                }
+                .listStyle(PlainListStyle())
+                .background(Color.clear)
             }
-            .padding()
+            .padding(.vertical)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(
-                LinearGradient(
-                    gradient: Gradient(colors: [Color("Purple"), Color("DarkPurple")]),
-                    startPoint: .topLeading,
-                    endPoint: .bottomTrailing
-                )
-            )
+            .background(Color("Purple"))
             .cornerRadius(30)
             .shadow(radius: 30)
         }
         .ignoresSafeArea()
-        .background(.black)
+        .background(Color("DarkPurple"))
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TaskViewController_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TaskViewController(viewModel: TaskViewModel(taskRepository: MockTaskRepository()))
     }
 }

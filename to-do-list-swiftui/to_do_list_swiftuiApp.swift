@@ -11,7 +11,7 @@ import SwiftUI
 struct to_do_list_swiftuiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskViewController(viewModel: TaskViewModel(taskRepository: TaskRepository()))
         }
     }
 }
