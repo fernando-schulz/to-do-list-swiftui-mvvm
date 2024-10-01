@@ -34,6 +34,7 @@ struct TaskCellView: View {
                 Image(systemName: task.isCompleted ? "checkmark.circle.fill" : "checkmark.circle")
                     .foregroundColor(Color("IconColor"))
             }
+            .buttonStyle(BorderlessButtonStyle()) //Evita que o evento de clique propague para a HStack
         }
     }
 }

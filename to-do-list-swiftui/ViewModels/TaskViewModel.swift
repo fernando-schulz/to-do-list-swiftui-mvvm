@@ -31,11 +31,12 @@ class TaskViewModel: ObservableObject {
         loadTasks()
     }
     
-    func addTask() {
-        print("Clicou addTask")
-    }
-    
     func toggleShowModalAddTask() {
         showModalAddTask.toggle()
+    }
+    
+    func deleteTask(_ task: Task) {
+        taskRepository.removeTask(task: task)
+        loadTasks()
     }
 }

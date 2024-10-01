@@ -71,6 +71,15 @@ struct TaskViewController: View {
                                     viewModel.toggleTaskCompletion(updatedTask)
                                 }
                             })
+                                .swipeActions(edge: .trailing) {
+                                    Button(role: .destructive) {
+                                        withAnimation {
+                                            viewModel.deleteTask(task)
+                                        }
+                                    } label: {
+                                        Label("Deletar", systemImage: "trash")
+                                    }
+                                }
                         }
                     }
                     .listRowBackground(Color.clear)
@@ -89,6 +98,15 @@ struct TaskViewController: View {
                                         viewModel.toggleTaskCompletion(updatedTask)
                                     }
                                 })
+                                    .swipeActions(edge: .trailing) {
+                                        Button(role: .destructive) {
+                                            withAnimation {
+                                                viewModel.deleteTask(task)
+                                            }
+                                        } label: {
+                                            Label("Deletar", systemImage: "trash")
+                                        }
+                                    }
                             }
                         }
                         .listRowBackground(Color.clear)

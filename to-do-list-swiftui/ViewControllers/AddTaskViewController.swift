@@ -17,9 +17,11 @@ struct AddTaskViewController: View {
             Text(viewModel.viewTitle)
                 .font(.title3)
                 .fontWeight(.semibold)
+                .foregroundColor(Color("DarkPurple"))
             
             Text(viewModel.txtTitle)
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .foregroundColor(Color("Purple"))
             
             TextField(viewModel.txtTitle, text: $viewModel.title)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -27,6 +29,7 @@ struct AddTaskViewController: View {
             
             Text(viewModel.txtDescription)
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .foregroundColor(Color("Purple"))
             
             TextField(viewModel.txtDescription, text: $viewModel.description)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -37,7 +40,12 @@ struct AddTaskViewController: View {
                 showModal = false
             }) {
                 Text(viewModel.txtButton)
+                    .foregroundColor(Color("TextColor"))
+                    .fontWeight(.semibold)
             }
+            .frame(width: 175, height: 40)
+            .background(Color("Purple"))
+            .cornerRadius(20)
             
             Spacer()
         }
@@ -53,7 +61,7 @@ struct AddTaskViewController_Previews: PreviewProvider {
 
 struct AddTaskPreview: View {
     @State private var showModal = true // Alterar para true se você quiser visualizar o modal
-
+    
     var body: some View {
         AddTaskViewController(viewModel: AddTaskViewModel(taskRepository: MockTaskRepository()), showModal: $showModal)
     }
