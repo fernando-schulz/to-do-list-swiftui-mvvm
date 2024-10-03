@@ -10,24 +10,39 @@
 		2B590E8A2CA383C600273973 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B590E892CA383C600273973 /* AddTaskViewController.swift */; };
 		2B590E8C2CA3860800273973 /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B590E8B2CA3860800273973 /* AddTaskViewModel.swift */; };
 		2B5A7AA42C9CF1D10053CF2F /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA32C9CF1D10053CF2F /* TaskModel.swift */; };
-		2B5A7AA62C9CF3E20053CF2F /* TasksMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA52C9CF3E20053CF2F /* TasksMock.swift */; };
+		2B5A7AA62C9CF3E20053CF2F /* MockTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA52C9CF3E20053CF2F /* MockTasks.swift */; };
 		2B5A7AAA2C9CF57B0053CF2F /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA92C9CF57B0053CF2F /* TaskCellView.swift */; };
+		2B5B4EF52CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B4EF42CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift */; };
+		2B5B4EFD2CACA29D00E2C057 /* TaskViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B4EFC2CACA29D00E2C057 /* TaskViewModelTests.swift */; };
 		2B7486002C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */; };
 		2B7486022C6D5CDE003EB774 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7486012C6D5CDE003EB774 /* TaskViewController.swift */; };
 		2B7486042C6D5CE1003EB774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7486032C6D5CE1003EB774 /* Assets.xcassets */; };
 		2B7486072C6D5CE1003EB774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7486062C6D5CE1003EB774 /* Preview Assets.xcassets */; };
 		2B80FF5C2C9F00E300A83509 /* UserDefaultsPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80FF5B2C9F00E300A83509 /* UserDefaultsPersistence.swift */; };
 		2B80FF5E2C9F026B00A83509 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80FF5D2C9F026B00A83509 /* TaskRepository.swift */; };
-		2B80FF602C9F288C00A83509 /* TaskRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80FF5F2C9F288C00A83509 /* TaskRepositoryMock.swift */; };
+		2B80FF602C9F288C00A83509 /* MockTaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80FF5F2C9F288C00A83509 /* MockTaskRepository.swift */; };
 		2BB9181A2C9BA23700508871 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB918192C9BA23700508871 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5B4EF62CAC9F9C00E2C057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B7485F42C6D5CDE003EB774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7485FB2C6D5CDE003EB774;
+			remoteInfo = "to-do-list-swiftui";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2B590E892CA383C600273973 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		2B590E8B2CA3860800273973 /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
 		2B5A7AA32C9CF1D10053CF2F /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
-		2B5A7AA52C9CF3E20053CF2F /* TasksMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksMock.swift; sourceTree = "<group>"; };
+		2B5A7AA52C9CF3E20053CF2F /* MockTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTasks.swift; sourceTree = "<group>"; };
 		2B5A7AA92C9CF57B0053CF2F /* TaskCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellView.swift; sourceTree = "<group>"; };
+		2B5B4EF22CAC9F9C00E2C057 /* to-do-list-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "to-do-list-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B4EF42CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_swiftuiTests.swift; sourceTree = "<group>"; };
+		2B5B4EFC2CACA29D00E2C057 /* TaskViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModelTests.swift; sourceTree = "<group>"; };
 		2B7485FC2C6D5CDE003EB774 /* to-do-list-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to-do-list-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_swiftuiApp.swift; sourceTree = "<group>"; };
 		2B7486012C6D5CDE003EB774 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +50,18 @@
 		2B7486062C6D5CE1003EB774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B80FF5B2C9F00E300A83509 /* UserDefaultsPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsPersistence.swift; sourceTree = "<group>"; };
 		2B80FF5D2C9F026B00A83509 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
-		2B80FF5F2C9F288C00A83509 /* TaskRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepositoryMock.swift; sourceTree = "<group>"; };
+		2B80FF5F2C9F288C00A83509 /* MockTaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaskRepository.swift; sourceTree = "<group>"; };
 		2BB918192C9BA23700508871 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B5B4EEF2CAC9F9C00E2C057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B7485F92C6D5CDE003EB774 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,16 +75,34 @@
 		2B5A7AA22C9CF15D0053CF2F /* Mocks */ = {
 			isa = PBXGroup;
 			children = (
-				2B5A7AA52C9CF3E20053CF2F /* TasksMock.swift */,
-				2B80FF5F2C9F288C00A83509 /* TaskRepositoryMock.swift */,
+				2B5A7AA52C9CF3E20053CF2F /* MockTasks.swift */,
+				2B80FF5F2C9F288C00A83509 /* MockTaskRepository.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		2B5B4EF32CAC9F9C00E2C057 /* to-do-list-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B4EFB2CACA21E00E2C057 /* ViewModels */,
+				2B5B4EF42CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift */,
+			);
+			path = "to-do-list-swiftuiTests";
+			sourceTree = "<group>";
+		};
+		2B5B4EFB2CACA21E00E2C057 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B4EFC2CACA29D00E2C057 /* TaskViewModelTests.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		2B7485F32C6D5CDE003EB774 = {
 			isa = PBXGroup;
 			children = (
 				2B7485FE2C6D5CDE003EB774 /* to-do-list-swiftui */,
+				2B5B4EF32CAC9F9C00E2C057 /* to-do-list-swiftuiTests */,
 				2B7485FD2C6D5CDE003EB774 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				2B7485FC2C6D5CDE003EB774 /* to-do-list-swiftui.app */,
+				2B5B4EF22CAC9F9C00E2C057 /* to-do-list-swiftuiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,13 +120,13 @@
 			isa = PBXGroup;
 			children = (
 				2B7486032C6D5CE1003EB774 /* Assets.xcassets */,
+				2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */,
 				2BB918172C9BA1C100508871 /* Extensions */,
 				2B5A7AA22C9CF15D0053CF2F /* Mocks */,
 				2BB918132C9B9DBD00508871 /* Models */,
 				2B80FF5A2C9F007F00A83509 /* Persistence */,
 				2B7486052C6D5CE1003EB774 /* Preview Content */,
 				2BB918162C9BA1B100508871 /* Repository */,
-				2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */,
 				2BB918182C9BA20300508871 /* ViewControllers */,
 				2BB918142C9BA19B00508871 /* ViewModels */,
 				2BB918152C9BA1A700508871 /* Views */,
@@ -161,6 +202,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2B5B4EF12CAC9F9C00E2C057 /* to-do-list-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5B4EF82CAC9F9C00E2C057 /* Build configuration list for PBXNativeTarget "to-do-list-swiftuiTests" */;
+			buildPhases = (
+				2B5B4EEE2CAC9F9C00E2C057 /* Sources */,
+				2B5B4EEF2CAC9F9C00E2C057 /* Frameworks */,
+				2B5B4EF02CAC9F9C00E2C057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5B4EF72CAC9F9C00E2C057 /* PBXTargetDependency */,
+			);
+			name = "to-do-list-swiftuiTests";
+			productName = "to-do-list-swiftuiTests";
+			productReference = 2B5B4EF22CAC9F9C00E2C057 /* to-do-list-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2B7485FB2C6D5CDE003EB774 /* to-do-list-swiftui */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B74860A2C6D5CE1003EB774 /* Build configuration list for PBXNativeTarget "to-do-list-swiftui" */;
@@ -188,6 +247,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					2B5B4EF12CAC9F9C00E2C057 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2B7485FB2C6D5CDE003EB774;
+					};
 					2B7485FB2C6D5CDE003EB774 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -207,11 +270,19 @@
 			projectRoot = "";
 			targets = (
 				2B7485FB2C6D5CDE003EB774 /* to-do-list-swiftui */,
+				2B5B4EF12CAC9F9C00E2C057 /* to-do-list-swiftuiTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B5B4EF02CAC9F9C00E2C057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B7485FA2C6D5CDE003EB774 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,17 +295,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B5B4EEE2CAC9F9C00E2C057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5B4EF52CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift in Sources */,
+				2B5B4EFD2CACA29D00E2C057 /* TaskViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B7485F82C6D5CDE003EB774 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5A7AA62C9CF3E20053CF2F /* TasksMock.swift in Sources */,
+				2B5A7AA62C9CF3E20053CF2F /* MockTasks.swift in Sources */,
 				2B7486022C6D5CDE003EB774 /* TaskViewController.swift in Sources */,
 				2B80FF5E2C9F026B00A83509 /* TaskRepository.swift in Sources */,
 				2BB9181A2C9BA23700508871 /* TaskViewModel.swift in Sources */,
 				2B5A7AA42C9CF1D10053CF2F /* TaskModel.swift in Sources */,
 				2B7486002C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift in Sources */,
-				2B80FF602C9F288C00A83509 /* TaskRepositoryMock.swift in Sources */,
+				2B80FF602C9F288C00A83509 /* MockTaskRepository.swift in Sources */,
 				2B590E8C2CA3860800273973 /* AddTaskViewModel.swift in Sources */,
 				2B80FF5C2C9F00E300A83509 /* UserDefaultsPersistence.swift in Sources */,
 				2B5A7AAA2C9CF57B0053CF2F /* TaskCellView.swift in Sources */,
@@ -244,7 +324,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2B5B4EF72CAC9F9C00E2C057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7485FB2C6D5CDE003EB774 /* to-do-list-swiftui */;
+			targetProxy = 2B5B4EF62CAC9F9C00E2C057 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2B5B4EF92CAC9F9C00E2C057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandoschulz.to-do-list-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/to-do-list-swiftui.app/to-do-list-swiftui";
+			};
+			name = Debug;
+		};
+		2B5B4EFA2CAC9F9C00E2C057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandoschulz.to-do-list-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/to-do-list-swiftui.app/to-do-list-swiftui";
+			};
+			name = Release;
+		};
 		2B7486082C6D5CE1003EB774 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -420,6 +542,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B5B4EF82CAC9F9C00E2C057 /* Build configuration list for PBXNativeTarget "to-do-list-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5B4EF92CAC9F9C00E2C057 /* Debug */,
+				2B5B4EFA2CAC9F9C00E2C057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2B7485F72C6D5CDE003EB774 /* Build configuration list for PBXProject "to-do-list-swiftui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
