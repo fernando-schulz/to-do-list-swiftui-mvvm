@@ -26,7 +26,7 @@ Este projeto **não possui dependências externas**, como web services. Basta ro
 
 ## 📸 Imagens
 
-| ![GIF do App](to-do-list-swiftui/Assets/gif-currency-converter.gif) | ![Tela Principal](to-do-list-swiftui/Assets/print-dark.png) | ![Adição de Tarefa](to-do-list-swiftui/Assets/print-light.png) |
+| ![GIF do App](to-do-list-swiftui/Assets.xcassets/gif-currency-converter.gif) | ![Tela Principal](to-do-list-swiftui/Assets.xcassets/print-dark.png) | ![Adição de Tarefa](to-do-list-swiftui/Assets.xcassets/print-light.png) |
 |:-----------------------------------------------:|:-----------------------------------------------:|:-----------------------------------------------:|
 |                **GIF de Funcionamento**         |               **Tela Principal**                |           **Tela de Adição de Tarefa**          |
 
@@ -44,4 +44,11 @@ Este projeto **não possui dependências externas**, como web services. Basta ro
   - Previews com **Mocks**.
 
 ## 📄 Licença
-Este projeto é licenciado sob a **MIT License**. Veja a seção de [Licença](#licença) para mais detalhes.
+
+Copyright (c) 2024 Fernando Schulz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
