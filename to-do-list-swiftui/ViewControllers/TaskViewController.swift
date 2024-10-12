@@ -47,6 +47,7 @@ struct TaskViewController: View {
                         Image(systemName: "plus")
                             .foregroundColor(.white)
                     }
+                    .accessibilityIdentifier("Add Task")
                     .sheet(isPresented: $viewModel.showModalAddTask) {
                         AddTaskViewController(
                             viewModel: {

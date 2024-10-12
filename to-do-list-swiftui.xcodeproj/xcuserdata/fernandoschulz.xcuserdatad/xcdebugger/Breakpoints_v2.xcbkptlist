@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7D58DFB8-0332-4887-BD82-FB9335DA5BA5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "AddTaskViewControllerTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94 - 90dd241450ad01f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list_swiftuiTests.AddTaskViewControllerTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; to_do_list_swiftuiTests.AddTaskViewControllerTests"
+                  moduleName = "to-do-list-swiftuiTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandoschulz/Documents/Estudos/Projetos-Git/to-do-list-swift/to-do-list-swiftui/to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "10">
+               </Location>
+               <Location
+                  uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94 - c21300f5101d703c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list_swiftuiTests.AddTaskViewControllerTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; to_do_list_swiftuiTests.AddTaskViewControllerTests"
+                  moduleName = "to-do-list-swiftuiTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandoschulz/Documents/Estudos/Projetos-Git/to-do-list-swift/to-do-list-swiftui/to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94 - cfe136a634fc1238"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list_swiftuiTests.AddTaskViewControllerTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; to_do_list_swiftuiTests.AddTaskViewControllerTests"
+                  moduleName = "to-do-list-swiftuiTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandoschulz/Documents/Estudos/Projetos-Git/to-do-list-swift/to-do-list-swiftui/to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "9">
+               </Location>
+               <Location
+                  uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94 - fc51d8336901b65c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list_swiftuiTests.AddTaskViewControllerTests.init(selector: ObjectiveC.Selector) -&gt; to_do_list_swiftuiTests.AddTaskViewControllerTests"
+                  moduleName = "to-do-list-swiftuiTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandoschulz/Documents/Estudos/Projetos-Git/to-do-list-swift/to-do-list-swiftui/to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94 - 4b86ae847310ad43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list_swiftuiTests.AddTaskViewControllerTests.__allocating_init() -&gt; to_do_list_swiftuiTests.AddTaskViewControllerTests"
+                  moduleName = "to-do-list-swiftuiTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandoschulz/Documents/Estudos/Projetos-Git/to-do-list-swift/to-do-list-swiftui/to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94 - d3a0f2fc3e99f115"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list_swiftuiTests.AddTaskViewControllerTests.init() -&gt; to_do_list_swiftuiTests.AddTaskViewControllerTests"
+                  moduleName = "to-do-list-swiftuiTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandoschulz/Documents/Estudos/Projetos-Git/to-do-list-swift/to-do-list-swiftui/to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "17FBBCBC-25A3-421D-A3B4-DDBEA3C1BA94 - c639d882f0a67775"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "to_do_list_swiftuiTests.AddTaskViewControllerTests.__deallocating_deinit"
+                  moduleName = "to-do-list-swiftuiTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernandoschulz/Documents/Estudos/Projetos-Git/to-do-list-swift/to-do-list-swiftui/to-do-list-swiftuiTests/ViewControllers/AddTaskViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -14,6 +14,9 @@
 		2B5A7AAA2C9CF57B0053CF2F /* TaskCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A7AA92C9CF57B0053CF2F /* TaskCellView.swift */; };
 		2B5B4EF52CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B4EF42CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift */; };
 		2B5B4EFD2CACA29D00E2C057 /* TaskViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B4EFC2CACA29D00E2C057 /* TaskViewModelTests.swift */; };
+		2B6AC2A32CBAB51700273AB4 /* to_do_list_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AC2A22CBAB51700273AB4 /* to_do_list_swiftuiUITests.swift */; };
+		2B6AC2A52CBAB51700273AB4 /* to_do_list_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6AC2A42CBAB51700273AB4 /* to_do_list_swiftuiUITestsLaunchTests.swift */; };
+		2B6AC2AB2CBAB52C00273AB4 /* AddTaskViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5DA8492CB8998F00BBD8C6 /* AddTaskViewControllerTests.swift */; };
 		2B7486002C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */; };
 		2B7486022C6D5CDE003EB774 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7486012C6D5CDE003EB774 /* TaskViewController.swift */; };
 		2B7486042C6D5CE1003EB774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7486032C6D5CE1003EB774 /* Assets.xcassets */; };
@@ -22,10 +25,18 @@
 		2B80FF5E2C9F026B00A83509 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80FF5D2C9F026B00A83509 /* TaskRepository.swift */; };
 		2B80FF602C9F288C00A83509 /* MockTaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B80FF5F2C9F288C00A83509 /* MockTaskRepository.swift */; };
 		2BB9181A2C9BA23700508871 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB918192C9BA23700508871 /* TaskViewModel.swift */; };
+		2BF739542CB5E22900894256 /* AddTaskViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF739532CB5E22900894256 /* AddTaskViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2B5B4EF62CAC9F9C00E2C057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B7485F42C6D5CDE003EB774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7485FB2C6D5CDE003EB774;
+			remoteInfo = "to-do-list-swiftui";
+		};
+		2B6AC2A62CBAB51700273AB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2B7485F42C6D5CDE003EB774 /* Project object */;
 			proxyType = 1;
@@ -43,6 +54,10 @@
 		2B5B4EF22CAC9F9C00E2C057 /* to-do-list-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "to-do-list-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5B4EF42CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_swiftuiTests.swift; sourceTree = "<group>"; };
 		2B5B4EFC2CACA29D00E2C057 /* TaskViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModelTests.swift; sourceTree = "<group>"; };
+		2B5DA8492CB8998F00BBD8C6 /* AddTaskViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewControllerTests.swift; sourceTree = "<group>"; };
+		2B6AC2A02CBAB51700273AB4 /* to-do-list-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "to-do-list-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6AC2A22CBAB51700273AB4 /* to_do_list_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_swiftuiUITests.swift; sourceTree = "<group>"; };
+		2B6AC2A42CBAB51700273AB4 /* to_do_list_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2B7485FC2C6D5CDE003EB774 /* to-do-list-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to-do-list-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7485FF2C6D5CDE003EB774 /* to_do_list_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = to_do_list_swiftuiApp.swift; sourceTree = "<group>"; };
 		2B7486012C6D5CDE003EB774 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +67,18 @@
 		2B80FF5D2C9F026B00A83509 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 		2B80FF5F2C9F288C00A83509 /* MockTaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTaskRepository.swift; sourceTree = "<group>"; };
 		2BB918192C9BA23700508871 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		2BF739532CB5E22900894256 /* AddTaskViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2B5B4EEF2CAC9F9C00E2C057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6AC29D2CBAB51700273AB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,8 +117,19 @@
 			isa = PBXGroup;
 			children = (
 				2B5B4EFC2CACA29D00E2C057 /* TaskViewModelTests.swift */,
+				2BF739532CB5E22900894256 /* AddTaskViewModelTests.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2B6AC2A12CBAB51700273AB4 /* to-do-list-swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5DA8492CB8998F00BBD8C6 /* AddTaskViewControllerTests.swift */,
+				2B6AC2A22CBAB51700273AB4 /* to_do_list_swiftuiUITests.swift */,
+				2B6AC2A42CBAB51700273AB4 /* to_do_list_swiftuiUITestsLaunchTests.swift */,
+			);
+			path = "to-do-list-swiftuiUITests";
 			sourceTree = "<group>";
 		};
 		2B7485F32C6D5CDE003EB774 = {
@@ -103,6 +137,7 @@
 			children = (
 				2B7485FE2C6D5CDE003EB774 /* to-do-list-swiftui */,
 				2B5B4EF32CAC9F9C00E2C057 /* to-do-list-swiftuiTests */,
+				2B6AC2A12CBAB51700273AB4 /* to-do-list-swiftuiUITests */,
 				2B7485FD2C6D5CDE003EB774 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +147,7 @@
 			children = (
 				2B7485FC2C6D5CDE003EB774 /* to-do-list-swiftui.app */,
 				2B5B4EF22CAC9F9C00E2C057 /* to-do-list-swiftuiTests.xctest */,
+				2B6AC2A02CBAB51700273AB4 /* to-do-list-swiftuiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +256,24 @@
 			productReference = 2B5B4EF22CAC9F9C00E2C057 /* to-do-list-swiftuiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2B6AC29F2CBAB51700273AB4 /* to-do-list-swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6AC2A82CBAB51700273AB4 /* Build configuration list for PBXNativeTarget "to-do-list-swiftuiUITests" */;
+			buildPhases = (
+				2B6AC29C2CBAB51700273AB4 /* Sources */,
+				2B6AC29D2CBAB51700273AB4 /* Frameworks */,
+				2B6AC29E2CBAB51700273AB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B6AC2A72CBAB51700273AB4 /* PBXTargetDependency */,
+			);
+			name = "to-do-list-swiftuiUITests";
+			productName = "to-do-list-swiftuiUITests";
+			productReference = 2B6AC2A02CBAB51700273AB4 /* to-do-list-swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2B7485FB2C6D5CDE003EB774 /* to-do-list-swiftui */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B74860A2C6D5CE1003EB774 /* Build configuration list for PBXNativeTarget "to-do-list-swiftui" */;
@@ -251,6 +305,10 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 2B7485FB2C6D5CDE003EB774;
 					};
+					2B6AC29F2CBAB51700273AB4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2B7485FB2C6D5CDE003EB774;
+					};
 					2B7485FB2C6D5CDE003EB774 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -271,12 +329,20 @@
 			targets = (
 				2B7485FB2C6D5CDE003EB774 /* to-do-list-swiftui */,
 				2B5B4EF12CAC9F9C00E2C057 /* to-do-list-swiftuiTests */,
+				2B6AC29F2CBAB51700273AB4 /* to-do-list-swiftuiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2B5B4EF02CAC9F9C00E2C057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6AC29E2CBAB51700273AB4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,6 +367,17 @@
 			files = (
 				2B5B4EF52CAC9F9C00E2C057 /* to_do_list_swiftuiTests.swift in Sources */,
 				2B5B4EFD2CACA29D00E2C057 /* TaskViewModelTests.swift in Sources */,
+				2BF739542CB5E22900894256 /* AddTaskViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6AC29C2CBAB51700273AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6AC2A52CBAB51700273AB4 /* to_do_list_swiftuiUITestsLaunchTests.swift in Sources */,
+				2B6AC2A32CBAB51700273AB4 /* to_do_list_swiftuiUITests.swift in Sources */,
+				2B6AC2AB2CBAB52C00273AB4 /* AddTaskViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +406,11 @@
 			isa = PBXTargetDependency;
 			target = 2B7485FB2C6D5CDE003EB774 /* to-do-list-swiftui */;
 			targetProxy = 2B5B4EF62CAC9F9C00E2C057 /* PBXContainerItemProxy */;
+		};
+		2B6AC2A72CBAB51700273AB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7485FB2C6D5CDE003EB774 /* to-do-list-swiftui */;
+			targetProxy = 2B6AC2A62CBAB51700273AB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -364,6 +446,38 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/to-do-list-swiftui.app/to-do-list-swiftui";
+			};
+			name = Release;
+		};
+		2B6AC2A92CBAB51700273AB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandoschulz.to-do-list-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "to-do-list-swiftui";
+			};
+			name = Debug;
+		};
+		2B6AC2AA2CBAB51700273AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fernandoschulz.to-do-list-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "to-do-list-swiftui";
 			};
 			name = Release;
 		};
@@ -465,6 +579,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -547,6 +662,15 @@
 			buildConfigurations = (
 				2B5B4EF92CAC9F9C00E2C057 /* Debug */,
 				2B5B4EFA2CAC9F9C00E2C057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B6AC2A82CBAB51700273AB4 /* Build configuration list for PBXNativeTarget "to-do-list-swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6AC2A92CBAB51700273AB4 /* Debug */,
+				2B6AC2AA2CBAB51700273AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

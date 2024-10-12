@@ -32,4 +32,12 @@ class MockTaskRepository: TaskRepository {
     override func addTask(task: Task) {
         tasks.append(task)
     }
+    
+    override func getNextId() -> Int {
+        if let maxIdTask = tasks.max(by: { $0.id < $1.id }) {
+            return maxIdTask.id + 1
+        } else {
+            return 1
+        }
+    }
 }

@@ -11,6 +11,7 @@ struct AddTaskViewController: View {
     
     @ObservedObject var viewModel: AddTaskViewModel
     @Binding var showModal: Bool
+    @State private var showErrorAlert: Bool = false
     
     var body: some View {
         VStack {
@@ -26,6 +27,7 @@ struct AddTaskViewController: View {
             TextField(viewModel.txtTitle, text: $viewModel.title)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding(.bottom, 10)
+                .accessibilityIdentifier("Task Title")
             
             Text(viewModel.txtDescription)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -34,9 +36,16 @@ struct AddTaskViewController: View {
             TextField(viewModel.txtDescription, text: $viewModel.description)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding(.bottom, 20)
+                .accessibilityIdentifier("Task Description")
             
             Button(action: {
                 viewModel.addTask()
+                
+                if viewModel.errorMessage != nil {
+                    showErrorAlert = true
+                    return
+                }
+                
                 showModal = false
             }) {
                 Text(viewModel.txtButton)
@@ -46,8 +55,19 @@ struct AddTaskViewController: View {
             .frame(width: 175, height: 40)
             .background(Color("Purple"))
             .cornerRadius(20)
+            .accessibilityIdentifier("Save Task")
             
             Spacer()
+        }
+        .alert(isPresented: $showErrorAlert) {
+            Alert(
+                title: Text("Erro"),
+                message: Text(viewModel.errorMessage ?? "Ocorreu um erro."),
+                dismissButton: .default(Text("OK"), action: {
+                    viewModel.errorMessage = nil
+                    showErrorAlert = false
+                })
+            )
         }
         .padding()
     }
