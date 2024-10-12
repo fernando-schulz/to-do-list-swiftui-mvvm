@@ -26,7 +26,7 @@ Este projeto **não possui dependências externas**, como web services. Basta ro
 
 ## 📸 Imagens
 
-| ![GIF do App](to-do-list-swiftui/Assets.xcassets/apresentacao-app.gif) | ![Tela Principal](to-do-list-swiftui/Assets.xcassets/tela-principal.png) | ![Adição de Tarefa](to-do-list-swiftui/Assets.xcassets/adicionar-tarefa.png) |
+| ![GIF do App](to-do-list-swiftui/Assets.xcassets/apresentacao-app.dataset/apresentacao-app.gif) | ![Tela Principal](to-do-list-swiftui/Assets.xcassets/tela-principal.imageset/tela-principal.png) | ![Adição de Tarefa](to-do-list-swiftui/Assets.xcassets/tela-principal.imageset/adicionar-tarefa.png) |
 |:-----------------------------------------------:|:-----------------------------------------------:|:-----------------------------------------------:|
 |                **GIF de Funcionamento**         |               **Tela Principal**                |           **Tela de Adição de Tarefa**          |
 
