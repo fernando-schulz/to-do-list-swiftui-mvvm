@@ -26,9 +26,11 @@ Este projeto **não possui dependências externas**, como web services. Basta ro
 
 ## 📸 Imagens
 
-| ![GIF do App](to-do-list-swiftui/Assets.xcassets/apresentacao-app.dataset/apresentacao-app.gif) | ![Tela Principal](to-do-list-swiftui/Assets.xcassets/tela-principal.imageset/tela-principal.png) | ![Adição de Tarefa](to-do-list-swiftui/Assets.xcassets/adicionar-tarefa.imageset/adicionar-tarefa.png.png) |
-|:-----------------------------------------------:|:-----------------------------------------------:|:-----------------------------------------------:|
-|                **GIF de Funcionamento**         |               **Tela Principal**                |           **Tela de Adição de Tarefa**          |
+<p align="center">
+  <img src="to-do-list-swiftui/Assets.xcassets/apresentacao-app.dataset/apresentacao-app.gif" alt="GIF do App" width="300"/>
+  <img src="to-do-list-swiftui/Assets.xcassets/tela-principal.imageset/tela-principal.png" alt="Tela Principal" width="300"/>
+  <img src="to-do-list-swiftui/Assets.xcassets/adicionar-tarefa.imageset/adicionar-tarefa.png" alt="Adição de Tarefa" width="300"/>
+</p>
 
 ## 🚀 Como Rodar o Projeto
 1. Abra o projeto no **Xcode**.
